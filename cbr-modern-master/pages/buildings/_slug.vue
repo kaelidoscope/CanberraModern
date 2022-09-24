@@ -20,7 +20,7 @@
 </template>
 
 <script>
-// in this API call, we go get a specifci building, filtered by the ID in the URL
+// in this API call, we go get a specific building, filtered by the ID in the URL
 // we access what is in the URL by using the params object
 export default {
 	async asyncData({ params }) {
