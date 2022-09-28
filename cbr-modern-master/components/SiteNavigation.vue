@@ -8,7 +8,7 @@
     <NuxtLink to="/about">
       About
     </NuxtLink>
-    <NuxtLink to="/events">
+    <NuxtLink to="/events2">
       Events
     </NuxtLink>
 		<NuxtLink to="/buildings">

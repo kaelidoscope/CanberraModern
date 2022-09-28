@@ -10,9 +10,9 @@
 			<li v-for="event in events" :key="event.id" class="list-group-item">
 				<!-- now make a link for each item -->
 				<!-- <NuxtLink :to="event.slug"> -->
-				<NuxtLink :to="'/events/' + events.slug">
+				<NuxtLink :to="'/events2/' + events2.slug">
 					<!-- return the rendered title -->
-					{{  events.title.rendered  }}
+					{{  events2.title.rendered  }}
 				</NuxtLink>
 				<!-- now show me the event year -->
 				: {{ event.acf.year }}
