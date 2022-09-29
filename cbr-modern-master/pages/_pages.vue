@@ -6,10 +6,15 @@
 		<SiteNavigation />
 
 		<div class="page">
-			<!-- the buiding returns an array with one item in it, so need to reference it below -->
-			<!-- <h2>{{  page[0].title.rendered  }}</h2> -->
+			<!-- the data returns an array with one item in it, so need to reference it below -->
+			<h2>{{  page[0].title.rendered  }}</h2>
 
-			<pre>{{ $data }}</pre>
+			<!-- create a div to hold the renderedContent variable holding the data we've retrieved below -->
+			<!-- if we don't use the v-html tag it will render it as a string -->
+			<div v-html="renderedContent"></div>
+
+			<!-- this will show all the data returned from the API, use it for troubleshooting -->
+			<!-- <pre>{{ $data }}</pre> -->
 		</div>
 	</div>
 </template>
@@ -19,9 +24,8 @@
 // we access what is in the URL by using the params object
 export default {
 	async asyncData({ params }) {
+		//page returns the data so we can access it below
 		const page = await fetch(
-			// `http://cm.beneb.com/wp-json/wp/v2/pages/?slug=${params.slug}`
-			// `http://cm.beneb.com/wp-json/wp/v2/pages/157`
 			`http://cm.beneb.com/wp-json/wp/v2/pages/?slug=about`
 		).then((res) => {
 			if (res.ok) {
@@ -29,7 +33,11 @@ export default {
 			}
 			throw new Error(res.status)
 		})
-		return { page }
+		//now we've got the data, lets create a new variable to hold just the rendered content
+		let renderedContent = page[0].content.rendered;
+		//return the renderedContent and the page content 
+		return {renderedContent, page}
+		
 	},
 }
 </script>

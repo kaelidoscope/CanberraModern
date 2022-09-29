@@ -23,7 +23,7 @@
 export default {
 	async asyncData({ params }) {
 		const event = await fetch(
-			`http://cm.beneb.com/wp-json/wp/v2/events/`
+			`http://cm.beneb.com/wp-json/wp/v2/events2/`
 		).then((res) => {
 			if (res.ok) {
 				return res.json()

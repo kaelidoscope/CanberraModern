@@ -14,8 +14,19 @@
 		<NuxtLink to="/buildings">
       Buildings
     </NuxtLink>
+    <NuxtLink to="/videos">
+      Videos
+    </NuxtLink>
+    <NuxtLink to="/links">
+      Links
+    </NuxtLink>
+    <NuxtLink to="/partners">
+      Partners
+    </NuxtLink>
 	</nav>
 </template>
+
 <script>
+import NuxtLogo from './NuxtLogo.vue';
 
 </script>
