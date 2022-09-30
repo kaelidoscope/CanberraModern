@@ -1,17 +1,17 @@
 <!-- this component can hold site navigation -->
 <!-- if we put it here we can avoid having to repeat the code -->
 <template>
-	<nav>
-  <NuxtLink to="/">
+  <nav>
+    <NuxtLink to="/">
       Home
     </NuxtLink>
     <NuxtLink to="/about">
       About
     </NuxtLink>
-    <NuxtLink to="/events2">
+    <NuxtLink to="/events">
       Events
     </NuxtLink>
-		<NuxtLink to="/buildings">
+    <NuxtLink to="/buildings">
       Buildings
     </NuxtLink>
     <NuxtLink to="/videos">
@@ -23,10 +23,10 @@
     <NuxtLink to="/partners">
       Partners
     </NuxtLink>
-	</nav>
+  </nav>
 </template>
 
 <script>
-import NuxtLogo from './NuxtLogo.vue';
+//import NuxtLogo from './NuxtLogo.vue';
 
 </script>
