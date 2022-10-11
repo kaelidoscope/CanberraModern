@@ -1,6 +1,6 @@
 <template>
 	<div class="container">
-		<h2>Home</h2>
+		<h2>Videos & Media</h2>
 		<h3>Filename: pages/videos.vue</h3>
 		<SiteNavigation />
 		<div class="page">

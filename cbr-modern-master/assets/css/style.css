@@ -1,0 +1,35 @@
+/*.container {
+    margin: auto;
+    overflow-wrap: normal;
+
+}*/
+
+/*Canberra branding global styles according to the project brief*/
+h1 {
+    font-family: 'Futura BT', 'Trebuchet MS', Arial, sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+    text-transform: uppercase;
+    letter-spacing: 0.12rem;  /* Font style Tracking equivalent */
+}
+
+h2 {
+    font-family: 'Futura BT', 'Trebuchet MS', Arial, sans-serif;
+    color: black;
+    font-size: x-large;
+    text-transform: uppercase;
+    letter-spacing: 0.07rem;
+}
+
+h3 {
+    font-family: 'Futura BT', 'Trebuchet MS', Arial, Helvetica sans-serif;
+    font-size: large;
+    letter-spacing: 0.03rem;
+}
+
+p {
+    font-family: 'Futura BT', 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: medium;
+    
+}

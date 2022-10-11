@@ -1,6 +1,6 @@
 <template>
 	<div class="container">
-		<h2>Home</h2>
+		<h2>Events</h2>
 		<h3>Filename: pages/events.vue</h3>
 		<SiteNavigation />
 		<div class="page">
