@@ -47,18 +47,16 @@
 
 </script>
 <style> 
-/* route and active route will show in bold as it matches*/
-a.nuxt-link-active {
-  font-weight: bold;
-}
-/*Exact link will display in the CM blue colour style*/
+
+/*Exact link will display in Bold & the CM blue colour style*/
 a.nuxt-link-exact-active {
   color: #7187c1;
+  font-weight: bold;
 }
 
 ul {
   list-style-type: none;
-  padding: 0;
+  padding: 10px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -73,7 +71,14 @@ a:visited {
   color: inherit;
 
 }
-a:hover {
+a:hover, a:focus {
   color: #7187c1;
 }
+
+a {
+  display: block;
+  padding: 0.5rem;
+}
+
+
 </style>

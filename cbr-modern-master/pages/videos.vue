@@ -1,7 +1,6 @@
 <template>
 	<div class="container">
-		<h2>Videos & Media</h2>
-		<h3>Filename: pages/videos.vue</h3>
+		
 		<SiteNavigation />
 		<div class="page">
 			<!-- the data returns an array with one item in it, so need to reference it below -->

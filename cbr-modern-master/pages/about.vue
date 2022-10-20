@@ -1,7 +1,6 @@
 <template>
 	<div class="container">
-		<h2>About Us</h2>
-		<h3>Filename: pages/about.vue</h3>
+		
 		<SiteNavigation />
 		<div class="page">
 			<!-- the data returns an array with one item in it, so need to reference it below -->
@@ -38,3 +37,13 @@
 		},
 	}
 	</script>
+<style scoped>
+		
+	div.page {
+		display: flexbox;
+		justify-content: center;
+		
+		
+	}
+
+</style>

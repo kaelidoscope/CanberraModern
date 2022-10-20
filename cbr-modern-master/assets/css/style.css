@@ -1,9 +1,9 @@
-/*.container {
+.container {
     margin: auto;
     overflow-wrap: normal;
 
-}*/
-
+}
+@import url('http://fonts.cdnfonts.com/css/futura-md-bt');
 /*Canberra branding global styles according to the project brief*/
 h1 {
     font-family: 'Futura BT', 'Trebuchet MS', Arial, sans-serif;
@@ -32,4 +32,8 @@ p {
     color: black;
     font-size: medium;
     
+}
+div.page {
+    align-content: center;
+    justify-content: center;
 }

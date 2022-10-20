@@ -1,13 +1,12 @@
 <template>
 	<div class="container">
-		<h2>All buildings</h2>
-		<h3>Filename: pages/buildings/index.vue</h3>
-
 		<SiteNavigation />
-
+		
+		
 
 		<div class="building">
 			<!-- The building list is over in the components folder -->
+			
 			<!-- the code below loads the component here so we can use it again -->
 			<BuildingsList />
 

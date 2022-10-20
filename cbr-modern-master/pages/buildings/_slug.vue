@@ -1,7 +1,7 @@
 <template>
 	<div class="container">
-		<h2>{{  $route.params.slug  }}</h2>
-		<h3>Filename: pages/buildings/_slug.vue</h3>
+	<!--	<h2>{{  $route.params.slug  }}</h2>-->
+		
 
 		<SiteNavigation />
 

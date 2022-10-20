@@ -1,7 +1,6 @@
 <template>
 	<div class="container">
-		<h2>Links</h2>
-		<h3>Filename: pages/links.vue</h3>
+		
 		<SiteNavigation />
 		<div class="page">
 			<!-- the data returns an array with one item in it, so need to reference it below -->
