@@ -5,8 +5,9 @@
 		
 
 		<div class="building">
+			<h2>Buildings</h2>
 			<!-- The building list is over in the components folder -->
-			
+			<h4>The Top 20 Mid and Late Century Modern Buildings.</h4>
 			<!-- the code below loads the component here so we can use it again -->
 			<BuildingsList />
 

@@ -1,6 +1,8 @@
 .container {
     margin: auto;
     overflow-wrap: normal;
+    text-align: center;
+    justify-content: center;
 
 }
 @import url('http://fonts.cdnfonts.com/css/futura-md-bt');
@@ -36,4 +38,5 @@ p {
 div.page {
     align-content: center;
     justify-content: center;
+    text-align: center;
 }
