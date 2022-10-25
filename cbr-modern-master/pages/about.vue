@@ -36,13 +36,12 @@
 			return { renderedContent, page }
 		},
 	}
-	</script>
+</script>
 <style scoped>
 		
 	div.page {
 		display: flexbox;
 		justify-content: center;
-		
 		
 	}
 

@@ -36,4 +36,4 @@
 			return { renderedContent, page }
 		},
 	}
-	</script>
+</script>
